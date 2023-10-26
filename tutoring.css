@@ -1,0 +1,48 @@
+/*here is the css for the webpsite*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #222;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  header {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  section {
+    padding: 40px;
+  }
+
+  footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }

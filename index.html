@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tutoring.css">
+    <title>Your Tutoring Service</title>
+    <script src="tutoring.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div id="navbar"></div>
+    <script>
+        document.getElementById('navbar').innerHTML = navbar;
+    </script>
+
+    <!-- Title Section -->
+    <header>
+        <h1>Your Tutoring Service</h1>
+        <p>Comprehensive tutoring for iGCSE subjects</p>
+    </header>
+
+    <!-- Who We Are Section -->
+    <section id="who-we-are">
+        <h2>Who We Are</h2>
+        <p>We are a team of experienced tutors dedicated to helping students excel in their iGCSE subjects. Our tutors
+            have a deep understanding of the curriculum and are committed to providing personalized and effective
+            tutoring sessions.</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Our tutoring services are affordably priced to ensure accessibility for all students:</p>
+        <ul>
+            <li>One-on-One Real Tutoring: $30/hour</li>
+            <li>Group Real Tutoring (max. 4 students): $20/hour</li>
+            <li>One-on-One Virtual Tutoring: $25/hour</li>
+            <li>Group Virtual Tutoring (max. 6 students): $15/hour</li>
+        </ul>
+    </section>
+
+    <!-- Tutoring Options Section -->
+    <section id="tutoring-options">
+        <h2>Tutoring Options</h2>
+        <p>At Your Tutoring Service, we offer flexible tutoring options to suit your needs:</p>
+        <ul>
+            <li>One-on-One Real Tutoring: Get personalized attention from our tutors in face-to-face sessions.</li>
+            <li>Group Real Tutoring: Collaborate and learn with a small group of students in a real classroom setting.
+            </li>
+            <li>One-on-One Virtual Tutoring: Connect with our tutors online for individualized instruction and support.
+            </li>
+            <li>Group Virtual Tutoring: Join a virtual group session with students sharing similar learning goals.</li>
+        </ul>
+        <p>We offer tutoring in the following subjects:</p>
+        <ul>
+            <li>AS Math</li>
+            <li>IGCSE Math</li>
+            <li>IGCSE Physics</li>
+            <li>IGCSE Chemistry</li>
+            <li>IGCSE Biology</li>
+            <li>IGCSE Accounting</li>
+        </ul>
+    </section>
+
+    <!-- Average Grades Section -->
+    <section id="grades">
+        <h2>Average Grades</h2>
+        <p>Our tutoring services have helped students achieve exceptional results:</p>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Grade Improvement</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>+2 grades</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>+1.5 grades</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>+2 grades</td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td>+2.5 grades</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Booking</h2>
+        <p>To book a tutoring session, please fill out the form below:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="">Choose a subject</option>
+                <option value="math">Math</option>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="biology">Biology</option>
+            </select>
+
+            <label for="message">Additional Information:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>We value your feedback. Please share your experience with our tutoring service:</p>
+        <textarea id="feedback-text" name="feedback-text" rows="6"></textarea>
+        <button type="submit">Submit</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Tutoring Service. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
